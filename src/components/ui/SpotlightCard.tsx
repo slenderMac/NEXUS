@@ -41,7 +41,7 @@ export function SpotlightCard({
             <div className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-500" style={{ 
             background: ''
             opacity: spotlight.opacity,
-            }}
+            }} /* RESOLVER ERRORES EN ESTE DOCUMENTO */
             />
             <div className="relative z-10 flex flex-col flex-1 h-full">{children}</div>
         </div>
