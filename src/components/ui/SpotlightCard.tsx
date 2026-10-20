@@ -1,5 +1,5 @@
 import { useRef, useState, useCallback } from "react";
-import type { ReactNode, MouseEvent } from "react";
+import type { ReactNode, MouseEvent, DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_IMG_SRC_TYPES } from "react";
 import { cn} from "../../utils/cn";
 
 
@@ -7,6 +7,7 @@ interface SpotlightCardProps {
     children: ReactNode;
     className?: string;
     spotlightColor?: string;
+    spotlightColor?: DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_IMG_SRC_TYPES;
 }
 
 /**
